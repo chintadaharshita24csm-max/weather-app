@@ -1,1 +1,29 @@
-
+body {
+  background-color:darkpink; 
+  font-family:Arial,sans-serif;
+  text-align:center;
+  margin-top:50px;
+}
+h1 {
+  color: darkblue;
+}
+input {
+  width:220px;
+  height:35px;
+  font-size:18px;
+  padding:5px;
+}
+button {
+  background-color:royalblue; 
+  color:white;
+  border:none;
+  padding:10px 20px;
+  front-size:16px;
+  cursor:pointer;
+  margin:10px;
+  border-radius:5px;
+}
+button:hover {
+  background-color:blue;
+}
+  
