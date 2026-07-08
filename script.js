@@ -12,12 +12,11 @@ searchBtn.addEventListener("click", () => {
         .then(data => {
             weather.innerHTML = `
                 <h2>${data.name}</h2>
-                <h3>${data.main.temp}°C</h3>
+                <p>${data.main.temp} °C</p>
                 <p>${data.weather[0].main}</p>
-                <p>Humidity: ${data.main.humidity}%</p>
             `;
         })
         .catch(() => {
-            weather.innerHTML = "<p>City not found!</p>";
+            weather.innerHTML = "❌ City not found";
         });
 });
